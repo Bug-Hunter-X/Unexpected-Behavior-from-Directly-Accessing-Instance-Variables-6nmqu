@@ -1,0 +1,2 @@
+# Unexpected Behavior from Directly Accessing Instance Variables
+This example demonstrates a potential issue in Ruby when instance variables are directly accessed and modified outside of the class's methods.  While it might seem convenient, this approach violates encapsulation principles and can lead to unpredictable results and maintainability problems.  The solution illustrates how to use accessor methods to maintain proper class structure and prevent these problems.
